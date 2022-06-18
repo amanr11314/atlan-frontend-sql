@@ -11,16 +11,19 @@ const App = () => {
     isResultFullScreen: false,
     isEditorFullScreen: false,
     queries: ['--YOUR QUERY HERE'],
-    result: [{}]
+    result: ['customers', 'products', 'orders', 'suppliers'],
   });
+
+  //for tab switching
   useEffect(() => {
-    console.log('Tab(s) Modified')
   }, [appState.currentTab]);
+
+  /// for result fullscreen
   useEffect(() => {
-    console.log(`Result fullscreen ${appState.isResultFullScreen}`)
   }, [appState.isResultFullScreen]);
+
+  /// for editor fullscreen
   useEffect(() => {
-    console.log(`Editor fullscreen ${appState.isEditorFullScreen}`)
   }, [appState.isEditorFullScreen]);
 
   return (
@@ -43,7 +46,7 @@ const App = () => {
           appState={appState}
           setState={setState}
         />
-        <Result />
+        <Result appState={appState} />
 
       </Stack>
 
