@@ -11,7 +11,6 @@ const Select = styled(MuiSelect)(({ theme }) => ({
     }
 }))
 const DropDownListSelect = ({ appState, setState }) => {
-    // const [choice, setChoice] = React.useState(itemsList[0]);
 
     const handleChange = (event) => {
         const val = event.target.value;
