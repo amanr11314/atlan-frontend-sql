@@ -19,4 +19,4 @@
 
 ### Peformace Optimizations:
  - Using **Paginated Table** to render large data improved performance by reducing loading time of overall app, improved user experience, and also **prevented from breaking the browser** while handling large amount of rows in table.
- - Using **FullScreen Toggle** feature for both tabs (editor and result) saw major improvement in user experience. 
+ - Using **FullScreen Toggle** feature for both windows (editor and result) saw major improvement in user experience. 
