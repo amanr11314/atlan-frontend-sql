@@ -15,6 +15,7 @@
 
 ### Page Load Time: 806ms
   - Measured using Google Chrome Dev Tools - Performance Tab.
+  <img src="https://raw.githubusercontent.com/amanr11314/atlan-frontend-sql/dev/app-performance-load-time.png?token=GHSAT0AAAAAABT3KOIKBIJH5ELBKJNOKSX6YVPJEUQ" />
 
 ### Peformace Optimizations:
  - Using **Paginated Table** to render large data improved performance by reducing loading time of overall app, improved user experience, and also **prevented from breaking the browser** while handling large amount of rows in table.
